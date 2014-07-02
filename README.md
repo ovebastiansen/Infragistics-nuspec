@@ -17,3 +17,8 @@ Build.bat
 -Version: <Version> parameter, such as 13.2.20132.2054.
 -Properties author: <Author> parameter, nuget package Author field.
 ```
+
+Links
+-----
+[Infragistics](http://www.infragistics.com/)
+[Nuget](http://www.nuget.org/)
