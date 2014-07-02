@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Infragistics.Win.UltraWinPrintPreviewDialog</id>
+    <version>$version$</version>
+    <authors>Lu Rongkai</authors>
+    <owners>Infragistics</owners>
+    <licenseUrl>http://www.infragistics.com/legal/ultimate/license/</licenseUrl>
+    <projectUrl>http://www.infragistics.com/products/windows-ui/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Infragistics NetAdvantage for Windows UI</description>
+    <releaseNotes>Infragistics NetAdvantage for Windows UI</releaseNotes>
+    <copyright>Copyright 2014</copyright>
+    <dependencies>
+      <dependency id="Infragistics.Shared" version="13.0.0" />
+      <dependency id="Infragistics.Win.Misc" version="13.0.0" />
+      <dependency id="Infragistics.Win.UltraWinStatusBar" version="13.0.0" />
+      <dependency id="Infragistics.Win.UltraWinToolbars" version="13.0.0" />
+      <dependency id="Infragistics.Win" version="13.0.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="libs\Infragistics.Win.UltraWinPrintPreviewDialog.dll" target="lib\net40" /> 
+  </files>
+</package>
