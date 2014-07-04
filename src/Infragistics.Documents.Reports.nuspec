@@ -3,7 +3,7 @@
   <metadata>
     <id>Infragistics.Documents.Reports</id>
     <version>$version$</version>
-    <authors>Lu Rongkai</authors>
+    <authors>$author$</authors>
     <owners>Infragistics</owners>
     <licenseUrl>http://www.infragistics.com/legal/ultimate/license/</licenseUrl>
     <projectUrl>http://www.infragistics.com/products/windows-ui/</projectUrl>
