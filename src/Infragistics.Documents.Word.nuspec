@@ -12,10 +12,11 @@
     <releaseNotes>Infragistics NetAdvantage for Windows UI</releaseNotes>
     <copyright>Copyright 2014</copyright>
     <dependencies>
-      <dependency id="Infragistics.Documents.IO.Core" version="13.0.0" />
+      <dependency id="Infragistics.Documents.IO.Core" version="[$version$]" />
     </dependencies>
   </metadata>
   <files>
-    <file src="libs\Infragistics.Documents.Word.dll" target="lib\net40" /> 
+    <file src="libs\Infragistics.Documents.Word.dll" target="lib\net40" />
+    <file src="build\Infragistics.Documents.Word.targets" target="build\native" />
   </files>
 </package>

@@ -12,13 +12,14 @@
     <releaseNotes>Infragistics NetAdvantage for Windows UI</releaseNotes>
     <copyright>Copyright 2014</copyright>
     <dependencies>
-      <dependency id="Infragistics.Documents.IO" version="13.0.0" />
-      <dependency id="Infragistics.Shared" version="13.0.0" />
-      <dependency id="Infragistics.Win.Misc" version="13.0.0" />
-      <dependency id="Infragistics.Win" version="13.0.0" />
+      <dependency id="Infragistics.Documents.IO" version="[$version$]" />
+      <dependency id="Infragistics.Shared" version="[$version$]" />
+      <dependency id="Infragistics.Win.Misc" version="[$version$]" />
+      <dependency id="Infragistics.Win" version="[$version$]" />
     </dependencies>
   </metadata>
   <files>
-    <file src="libs\Infragistics.Win.UltraWinFormattedText.WordWriter.dll" target="lib\net40" /> 
+    <file src="libs\Infragistics.Win.UltraWinFormattedText.WordWriter.dll" target="lib\net40" />
+    <file src="build\Infragistics.Win.UltraWinFormattedText.WordWriter.targets" target="build\native" />
   </files>
 </package>

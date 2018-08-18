@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Infragistics.Olap.DataSource.Xmla</id>
+    <version>$version$</version>
+    <authors>$author$</authors>
+    <owners>Infragistics</owners>
+    <licenseUrl>http://www.infragistics.com/legal/ultimate/license/</licenseUrl>
+    <projectUrl>http://www.infragistics.com/products/windows-ui/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Infragistics NetAdvantage for Windows UI</description>
+    <releaseNotes>Infragistics NetAdvantage for Windows UI</releaseNotes>
+    <copyright>Copyright 2014</copyright>
+    <dependencies>
+      <dependency id="Infragistics.Olap.Core" version="[$version$]" />
+      <dependency id="Infragistics.DataProvider.Xmla" version="[$version$]" />
+      <dependency id="Infragistics.DataSource" version="[$version$]" />
+      <dependency id="Infragistics.DataSource.Mdx" version="[$version$]" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="libs\Infragistics.Olap.DataSource.Xmla.dll" target="lib\net40" />
+    <file src="build\Infragistics.Olap.DataSource.Xmla.targets" target="build\native" />
+  </files>
+</package>

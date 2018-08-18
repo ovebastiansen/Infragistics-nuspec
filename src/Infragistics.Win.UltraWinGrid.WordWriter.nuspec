@@ -12,14 +12,15 @@
     <releaseNotes>Infragistics NetAdvantage for Windows UI</releaseNotes>
     <copyright>Copyright 2014</copyright>
     <dependencies>
-      <dependency id="Infragistics.Documents.IO" version="13.0.0" />
-      <dependency id="Infragistics.Shared" version="13.0.0" />
-      <dependency id="Infragistics.Win.UltraWinFormattedText.WordWriter" version="13.0.0" />
-      <dependency id="Infragistics.Win.UltraWinGrid" version="13.0.0" />
-      <dependency id="Infragistics.Win" version="13.0.0" />
+      <dependency id="Infragistics.Documents.IO" version="[$version$]" />
+      <dependency id="Infragistics.Shared" version="[$version$]" />
+      <dependency id="Infragistics.Win.UltraWinFormattedText.WordWriter" version="[$version$]" />
+      <dependency id="Infragistics.Win.UltraWinGrid" version="[$version$]" />
+      <dependency id="Infragistics.Win" version="[$version$]" />
     </dependencies>
   </metadata>
   <files>
-    <file src="libs\Infragistics.Win.UltraWinGrid.WordWriter.dll" target="lib\net40" /> 
+    <file src="libs\Infragistics.Win.UltraWinGrid.WordWriter.dll" target="lib\net40" />
+    <file src="build\Infragistics.Win.UltraWinGrid.WordWriter.targets" target="build\native" />
   </files>
 </package>

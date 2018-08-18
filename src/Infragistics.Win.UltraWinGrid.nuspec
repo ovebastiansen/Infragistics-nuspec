@@ -12,12 +12,13 @@
     <releaseNotes>Infragistics NetAdvantage for Windows UI</releaseNotes>
     <copyright>Copyright 2014</copyright>
     <dependencies>
-      <dependency id="Infragistics.Shared" version="13.0.0" />
-      <dependency id="Infragistics.Win.Misc" version="13.0.0" />
-      <dependency id="Infragistics.Win" version="13.0.0" />
+      <dependency id="Infragistics.Shared" version="[$version$]" />
+      <dependency id="Infragistics.Win.Misc" version="[$version$]" />
+      <dependency id="Infragistics.Win" version="[$version$]" />
     </dependencies>
   </metadata>
   <files>
-    <file src="libs\Infragistics.Win.UltraWinGrid.dll" target="lib\net40" /> 
+    <file src="libs\Infragistics.Win.UltraWinGrid.dll" target="lib\net40" />
+    <file src="build\Infragistics.Win.UltraWinGrid.targets" target="build\native" />
   </files>
 </package>

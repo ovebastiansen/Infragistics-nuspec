@@ -1,2 +1,2 @@
 
-FOR %%f in (%~dp0src\*.nuspec) DO nuget pack %%f -Version 13.2.20132.2054 -Properties author="Lu Rongkai"
+FOR %%f in (%~dp0src\*.nuspec) DO nuget pack %%f -Version 18.1.20181.177 -Properties author="ovb"

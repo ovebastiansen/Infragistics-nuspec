@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Infragistics.Win.UltraGauge.Design</id>
+    <version>$version$</version>
+    <authors>$author$</authors>
+    <owners>Infragistics</owners>
+    <licenseUrl>http://www.infragistics.com/legal/ultimate/license/</licenseUrl>
+    <projectUrl>http://www.infragistics.com/products/windows-ui/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Infragistics NetAdvantage for Windows UI</description>
+    <releaseNotes>Infragistics NetAdvantage for Windows UI</releaseNotes>
+    <copyright>Copyright 2014</copyright>
+    <dependencies>
+      <dependency id="Infragistics.Shared" version="[$version$]" />
+      <dependency id="Infragistics.Win" version="[$version$]" />
+      <dependency id="Infragistics.Win.Misc" version="[$version$]" />
+      <dependency id="Infragistics.Win.UltraWinDock" version="[$version$]" />
+      <dependency id="Infragistics.Win.UltraWinEditors" version="[$version$]" />
+      <dependency id="Infragistics.Win.UltraWinGauge" version="[$version$]" />
+      <dependency id="Infragistics.Win.UltraWinGrid" version="[$version$]" />
+      <dependency id="Infragistics.Win.UltraWinListView" version="[$version$]" />
+      <dependency id="Infragistics.Win.UltraWinMaskedEdit" version="[$version$]" />
+      <dependency id="Infragistics.Win.UltraWinTabControl" version="[$version$]" />
+      <dependency id="Infragistics.Win.UltraWinToolbars" version="[$version$]" />
+      <dependency id="Infragistics.Win.UltraWinTree" version="[$version$]" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="libs\Infragistics.Win.UltraGauge.Design.dll" target="lib\net40" />
+    <file src="build\Infragistics.Win.UltraGauge.Design.targets" target="build\native" />
+  </files>
+</package>

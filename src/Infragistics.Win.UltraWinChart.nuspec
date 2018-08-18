@@ -13,6 +13,7 @@
     <copyright>Copyright 2014</copyright>
   </metadata>
   <files>
-    <file src="libs\Infragistics.Win.UltraWinChart.dll" target="lib\net40" /> 
+    <file src="libs\Infragistics.Win.UltraWinChart.dll" target="lib\net40" />
+    <file src="build\Infragistics.Win.UltraWinChart.targets" target="build\native" />
   </files>
 </package>

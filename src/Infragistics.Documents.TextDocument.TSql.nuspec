@@ -12,10 +12,11 @@
     <releaseNotes>Infragistics NetAdvantage for Windows UI</releaseNotes>
     <copyright>Copyright 2014</copyright>
     <dependencies>
-      <dependency id="Infragistics.Documents.TextDocument" version="13.0.0" />
+      <dependency id="Infragistics.Documents.TextDocument" version="[$version$]" />
     </dependencies>
   </metadata>
   <files>
-    <file src="libs\Infragistics.Documents.TextDocument.TSql.dll" target="lib\net40" /> 
+    <file src="libs\Infragistics.Documents.TextDocument.TSql.dll" target="lib\net40" />
+    <file src="build\Infragistics.Documents.TextDocument.TSql.targets" target="build\native" />
   </files>
 </package>

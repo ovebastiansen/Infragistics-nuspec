@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Infragistics.Win.Portable.Core</id>
+    <version>$version$</version>
+    <authors>$author$</authors>
+    <owners>Infragistics</owners>
+    <licenseUrl>http://www.infragistics.com/legal/ultimate/license/</licenseUrl>
+    <projectUrl>http://www.infragistics.com/products/windows-ui/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Infragistics NetAdvantage for Windows UI</description>
+    <releaseNotes>Infragistics NetAdvantage for Windows UI</releaseNotes>
+    <copyright>Copyright 2014</copyright>
+  </metadata>
+  <files>
+    <file src="libs\Infragistics.Win.Portable.Core.dll" target="lib\net40" />
+    <file src="build\Infragistics.Win.Portable.Core.targets" target="build\native" />
+  </files>
+</package>

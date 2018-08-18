@@ -12,10 +12,11 @@
     <releaseNotes>Infragistics NetAdvantage for Windows UI</releaseNotes>
     <copyright>Copyright 2014</copyright>
     <dependencies>
-      <dependency id="Infragistics.Shared" version="13.0.0" />
+      <dependency id="Infragistics.Shared" version="[$version$]" />
     </dependencies>
   </metadata>
   <files>
-    <file src="libs\Infragistics.Win.UltraWinGauge.dll" target="lib\net40" /> 
+    <file src="libs\Infragistics.Win.UltraWinGauge.dll" target="lib\net40" />
+    <file src="build\Infragistics.Win.UltraWinGauge.targets" target="build\native" />
   </files>
 </package>

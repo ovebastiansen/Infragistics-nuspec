@@ -12,11 +12,12 @@
     <releaseNotes>Infragistics NetAdvantage for Windows UI</releaseNotes>
     <copyright>Copyright 2014</copyright>
     <dependencies>
-      <dependency id="Infragistics.Shared" version="13.0.0" />
-      <dependency id="Infragistics.Win" version="13.0.0" />
+      <dependency id="Infragistics.Shared" version="[$version$]" />
+      <dependency id="Infragistics.Win" version="[$version$]" />
     </dependencies>
   </metadata>
   <files>
-    <file src="libs\Infragistics.Win.UltraWinListView.dll" target="lib\net40" /> 
+    <file src="libs\Infragistics.Win.UltraWinListView.dll" target="lib\net40" />
+    <file src="build\Infragistics.Win.UltraWinListView.targets" target="build\native" />
   </files>
 </package>

@@ -12,19 +12,20 @@
     <releaseNotes>Infragistics NetAdvantage for Windows UI</releaseNotes>
     <copyright>Copyright 2014</copyright>
     <dependencies>
-      <dependency id="Infragistics.Shared" version="13.0.0" />
-      <dependency id="Infragistics.Win.Misc" version="13.0.0" />
-      <dependency id="Infragistics.Win.UltraWinCalcManager" version="13.0.0" />
-      <dependency id="Infragistics.Win.UltraWinEditors" version="13.0.0" />
-      <dependency id="Infragistics.Win.UltraWinGrid" version="13.0.0" />
-      <dependency id="Infragistics.Win.UltraWinListView" version="13.0.0" />
-      <dependency id="Infragistics.Win.UltraWinTabControl" version="13.0.0" />
-      <dependency id="Infragistics.Win.UltraWinToolbars" version="13.0.0" />
-      <dependency id="Infragistics.Win.UltraWinTree" version="13.0.0" />
-      <dependency id="Infragistics.Win" version="13.0.0" />
+      <dependency id="Infragistics.Shared" version="[$version$]" />
+      <dependency id="Infragistics.Win.Misc" version="[$version$]" />
+      <dependency id="Infragistics.Win.UltraWinCalcManager" version="[$version$]" />
+      <dependency id="Infragistics.Win.UltraWinEditors" version="[$version$]" />
+      <dependency id="Infragistics.Win.UltraWinGrid" version="[$version$]" />
+      <dependency id="Infragistics.Win.UltraWinListView" version="[$version$]" />
+      <dependency id="Infragistics.Win.UltraWinTabControl" version="[$version$]" />
+      <dependency id="Infragistics.Win.UltraWinToolbars" version="[$version$]" />
+      <dependency id="Infragistics.Win.UltraWinTree" version="[$version$]" />
+      <dependency id="Infragistics.Win" version="[$version$]" />
     </dependencies>
   </metadata>
   <files>
-    <file src="libs\Infragistics.Win.SupportDialogs.dll" target="lib\net40" /> 
+    <file src="libs\Infragistics.Win.SupportDialogs.dll" target="lib\net40" />
+    <file src="build\Infragistics.Win.SupportDialogs.targets" target="build\native" />
   </files>
 </package>
